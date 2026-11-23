@@ -1,0 +1,24 @@
+info:
+  name: Update Tas
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: http://localhost:3000/api/tas/5
+  body:
+    type: json
+    data: |-
+      {
+        "nama_tas": "Laptop Sleeve Minimalist Pro",
+        "harga": 135000,
+        "stok": 10
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

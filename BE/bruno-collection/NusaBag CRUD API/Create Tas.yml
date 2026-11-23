@@ -1,0 +1,28 @@
+info:
+  name: Create Tas
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://localhost:3000/api/tas
+  body:
+    type: json
+    data: |-
+      {
+        "nama_tas": "Laptop Sleeve Minimalist",
+        "kategori": "Laptop Sleeve",
+        "bahan": "Neoprene Water-Resistant",
+        "harga": 110000,
+        "stok": 12,
+        "dimensi": "35 x 25 x 2.5 cm (Muat laptop 14 inch)",
+        "deskripsi": "Pelindung laptop tipis dengan lapisan busa lembut di bagian dalam dan saku charger di depan."
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
