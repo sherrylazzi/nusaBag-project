@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NusaBag Studio - Company Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">NusaBag Studio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto gap-2">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tentang">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#katalog">Katalog Tas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-outline-light btn-sm px-3" href="login.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link btn btn-warning text-dark btn-sm px-3" href="register.html">Registrasi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero-section text-center">
+      <div class="container">
+        <h1 class="display-5 fw-bold mb-3">Tas Fungsional untuk Aktivitas Harian</h1>
+        <p class="lead text-light mb-4">
+          NusaBag Studio merancang dan memproduksi tas lokal berkualitas di Bandung dengan material tahan lama dan desain minimalis.
+        </p>
+        <a href="#katalog" class="btn btn-warning btn-lg fw-semibold text-dark">Jelajahi Koleksi</a>
+      </div>
+    </section>
+
+    <section id="tentang" class="py-5 bg-white border-bottom">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h2 class="fw-bold mb-3">Tentang Perusahaan</h2>
+            <p class="text-muted">
+              Berdiri di Bandung, <strong>NusaBag Studio</strong> berfokus pada pembuatan tas harian seperti tote bag, backpack, sling bag, dan duffel bag untuk pelajar, mahasiswa, serta pekerja kreatif.
+            </p>
+            <p class="text-muted mb-0">
+              Setiap produk melewati proses seleksi kain <em>water-repellent</em>, jahitan diperkuat di titik beban, dan pengujian kapasitas harian.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="row g-3 text-center">
+              <div class="col-6">
+                <div class="p-3 bg-light rounded border">
+                  <h4 class="fw-bold mb-1">100%</h4>
+                  <small class="text-muted">Produksi Lokal</small>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-3 bg-light rounded border">
+                  <h4 class="fw-bold mb-1">4 Seri</h4>
+                  <small class="text-muted">Produk Unggulan</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="katalog" class="py-5">
+      <div class="container">
+        <div class="mb-4">
+          <h2 class="fw-bold">Katalog Informasi Produk</h2>
+          <p class="text-muted mb-0">Pilih salah satu produk untuk melihat spesifikasi detail.</p>
+        </div>
+        <div class="row" id="katalog-tas"></div>
+      </div>
+    </section>
+  </main>
+
+  <section id="kontak" class="py-5 bg-white border-top">
+      <div class="container">
+        <div class="mb-4">
+          <h2 class="fw-bold">Kontak Kami</h2>
+          <p class="text-muted mb-0">Hubungi NusaBag Studio untuk informasi produk, kerja sama, atau pemesanan khusus.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="p-4 bg-light rounded border h-100">
+              <h5 class="fw-bold mb-2">Telepon / WhatsApp</h5>
+              <p class="text-muted mb-1">+62 812-3456-7890</p>
+              <small class="text-muted">Senin – Sabtu, 09.00 – 17.00 WIB</small>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 bg-light rounded border h-100">
+              <h5 class="fw-bold mb-2">Email</h5>
+              <p class="text-muted mb-1">halo@nusabag.id</p>
+              <small class="text-muted">Respon maksimal 1x24 jam hari kerja</small>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4 bg-light rounded border h-100">
+              <h5 class="fw-bold mb-2">Alamat Workshop</h5>
+              <p class="text-muted mb-1">Jl. Riau No. 48, Bandung, Jawa Barat</p>
+              <small class="text-muted">Kunjungan studio by appointment</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      <small>@copyright by 25552012010_SHERRYL AZIZAH AULIA</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
